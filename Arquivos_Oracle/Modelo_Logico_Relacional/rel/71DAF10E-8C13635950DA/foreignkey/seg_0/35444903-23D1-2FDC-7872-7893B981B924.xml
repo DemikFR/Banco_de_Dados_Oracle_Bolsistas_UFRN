@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35444903-23D1-2FDC-7872-7893B981B924" containerWithKeyObject="6316E19C-EC8D-0ACB-726D-18E1047A1A64" localFKIndex="0E1A103D-A239-3AEE-3478-67FDB59FF8E4" name="PESQUISA_PROJETO_FK">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>646664D2-E135-C9E4-E864-83634B3F99B3</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<referredTableLongName>PROJETO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA306EA0-0808-1FE0-5E6B-D3424B635D1E</referredTableID>
+<keyObject>64B78FE3-A09B-A009-39B5-C87A28ADE926</keyObject>
+<referredKeyID>64B78FE3-A09B-A009-39B5-C87A28ADE926</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_projeto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

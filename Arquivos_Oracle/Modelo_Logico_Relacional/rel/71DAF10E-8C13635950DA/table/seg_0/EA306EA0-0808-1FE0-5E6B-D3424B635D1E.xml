@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA306EA0-0808-1FE0-5E6B-D3424B635D1E" name="PROJETO">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>E4D1AFFC-30DA-B70C-C780-31DFEE29734B</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_projeto" id="9E0B5B6A-8A28-99C2-70E7-0E20C502B369">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>AFB8B989-D62F-7D1A-CC9B-0FE74491FF94</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="5E9B9CA3-6C4E-24DB-5DB2-3B96C5687B1C">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>752639C6-FF23-22F8-1298-C893158D37B1</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>298</dataTypeSize>
+<ownDataTypeParameters>298,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="943B2DBA-5B17-DCF7-9523-47AAA200BED1">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>B8E1CF6C-9709-AF7F-5EDC-88E94C3D4D1D</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="linha_pesquisa" id="1F6F6DF0-23B0-CFC2-C0DA-CDB3E2674550">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>D6F5D40B-C023-5D03-4299-76FB16C30618</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>199</dataTypeSize>
+<ownDataTypeParameters>199,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64B78FE3-A09B-A009-39B5-C87A28ADE926" name="PROJETO_PK">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>60579D03-72C6-B8B7-DBEE-B9057004125F</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E0B5B6A-8A28-99C2-70E7-0E20C502B369"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

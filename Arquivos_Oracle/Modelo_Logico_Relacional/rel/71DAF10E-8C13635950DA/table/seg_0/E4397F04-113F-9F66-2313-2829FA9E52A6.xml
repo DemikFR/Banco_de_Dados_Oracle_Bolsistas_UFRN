@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4397F04-113F-9F66-2313-2829FA9E52A6" name="BOLSA">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>D3B10C7C-E896-AA8D-25B1-783DC3E5038E</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bolsa" id="638478DF-9BB9-F564-DD5E-2077A6FF1AB1">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>7DBE5420-21CC-4FB1-B298-622996980066</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_unidade" id="76738ED9-613C-E0F0-C559-02DBB0E63A9E">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>683C4B45-125D-2218-BF6D-2DB57A1BF7D3</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E00AC7E4-95EE-F3EE-8646-62A444A4BA17" referredColumn="078629C7-EEFD-CDB7-7278-4AA35B88D21E"/>
+</associations>
+</Column>
+<Column name="id_pesquisa" id="DE4B5CBD-75DA-A3FA-5B3B-6776F19F106D">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>C049E8F1-8B08-376B-66C4-FAE54846D8FD</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14294674-4C24-A58B-295C-F6BEDC3AA190" referredColumn="AB7480B3-FB3D-80FF-8FBE-FE20D0C5FE40"/>
+</associations>
+</Column>
+<Column name="cota" id="7CE912DD-A102-8B65-7127-924C73D630EF">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>FEAF6815-1AE8-4FD6-5B1F-527CBCC904A1</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inicio_pesquisa" id="EB899B2C-B7A5-923B-0238-23D34065FABB">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>C722D306-AB94-0EE4-2695-E7B66BFFB99B</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fim" id="48646039-02B0-2E35-EBB4-5353231E49A8">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>67229E83-5BDB-9E55-1F95-61B7FB3E5921</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_discente" id="FAC22C18-03CF-E3D3-9332-49A0F1F12426">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>F305AC1C-D819-06BF-583C-83C66CF20A3A</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83806529-68E6-7B51-F44D-EBBCB4F42578" referredColumn="53EA055D-7526-5F4A-6EC8-4B6831853EA9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B876A8FA-47AD-DD31-4C54-3D9162341630" name="BOLSA_PK">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>178292AF-98A5-78DA-AC6E-07BE73F1E6BF</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="638478DF-9BB9-F564-DD5E-2077A6FF1AB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A389AA94-74E1-4534-AD41-DDC96BBB6590" name="BOLSA_BOLSISTA_FK">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>BD2E13C6-606D-6340-01F4-D305F1B02D3B</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAC22C18-03CF-E3D3-9332-49A0F1F12426"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4001F7B-0D08-49E0-46A8-7182871555AB" name="BOLSA_PESQUISA_FK">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>7E7E82BC-AAF5-73BB-3BA4-FC274595E935</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE4B5CBD-75DA-A3FA-5B3B-6776F19F106D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04DFB0C6-CDEA-3534-7F71-954BFD0056A1" name="BOLSA_UNIDADE_FK">
+<createdBy>demik</createdBy>
+<createdTime>2022-11-24 21:59:37 UTC</createdTime>
+<generatorID>EE7379B6-492E-6815-3162-E0100ADE9400</generatorID>
+<ownerDesignName>Modelo_Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76738ED9-613C-E0F0-C559-02DBB0E63A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
