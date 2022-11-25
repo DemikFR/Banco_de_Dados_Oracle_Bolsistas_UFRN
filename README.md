@@ -2,8 +2,27 @@
   <img height="300" width="400" src="https://www.ufrn.br/resources/documentos/identidadevisual/logotipo/logotipo_flat.png">
   <h1 align="center">Banco de Dados Oracle para a base de dados de Bolsistas da UFRN</h1>
 </div>
-Todas as informações sobre o projeto se encontrará abaixo.<br>
-🔨Projeto ainda em desenvolvimento.🔨
+Projeto de banco de dados Oracle dos bolsistas de pesquisa da UFRN.<br>
+Os dados se encontram na página de <a href="https://dados.ufrn.br/">dados abertos da UFRN</a> e na pasta "Base_Dados" deste repositório.<br><br>
+<h3 align=center>🔨Projeto ainda em desenvolvimento.🔨</h3><br>
+<h2>📜 Conforme a análise dos dados disponibilizados, foram estabelecidas as seguintes RNs: 	</h2>
+
+🚧 <b>Em construção...</b> 🚧
+	
+- Poderá ser armazenado diversos alunos da universidade, porém alguns deles são ou não comtemplados com a bolsa de 
+Pesquisa, os que são, ganham um id especial como bolsista.
+
+- Um aluno pode ou não ser bolsista, já está sendo considerada a posibilidade de ser cadastrado alunos que 
+Possivelmente podem se tornar bolsistas.
+
+- Grupo de pesquisa só se relacionará com os bolsista, pois não há alunos com pesquisas sem bolsas.
+	
+- Um bolsista pode ou não pertencer a um grupo
+
+- Um bolsista deve ter um orientador.
+
+- Um bolsista deve estar em uma ou muitas bolsas.
+
 <h2>💽 Entidades:</h2>
 Para se adequar às formas normais, foram criadas 9 entidades, cada uma com a sua chave primária de acordo com os 
 Atributos disponibilizadas pela base e duas entidades associativas que receberão um código para cada relação. Assim, as entidades são:
@@ -32,24 +51,11 @@ do registro.
 ajustada para se relacionar com a entidade unidade, garantindo o funcionamento conceitual do banco. Os atributos dela serão cd bolsa, 
 ID unidade(FK de unidade), ID pesquisa(FK de pesquisa), ID discente(FK do bolsista), cota e tipo bolsa. Esses dois últimos são da base,
 colocado nesta entidade para se adequar conceitualmente.
- 
-<h2>📜 Conforme a análise dos dados, foram estabelecidas as seguintes RNs: 	</h2>
 
-🚧 <b>Em construção...</b> 🚧
-	
-- Poderá ser armazenado diversos alunos da universidade, porém alguns deles são ou não comtemplados com a bolsa de 
-Pesquisa, os que são, ganham um id especial como bolsista.
-
-- Um aluno pode ou não ser bolsista, já está sendo considerada a posibilidade de ser cadastrado alunos que 
-Possivelmente podem se tornar bolsistas.
-
-- Grupo de pesquisa só se relacionará com os bolsista, pois não há alunos com pesquisas sem bolsas.
-	
-- Um bolsista pode ou não pertencer a um grupo
-
-- Um bolsista deve ter um orientador.
-
-- Um bolsista deve estar em uma ou muitas bolsas.
+<h2>📋Modelo Lógico</h2>
+<div align=center>
+	<img height="550" width="800" src="https://i.imgur.com/LHeGoFo.png">
+</div>
 
 <h2>🛠 Tecnologias</h2>
 
